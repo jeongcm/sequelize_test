@@ -2,27 +2,32 @@
   {
     "resourceName": "test1",
     "resourceDescription": "test for seeding data",
-    "resourceLevelType": "OP"
+    "resourceLevelType": "OP",
+    "resourceId": "3b71c786-7c12-49d6-b722-ba3b23cb04ac"
   },
   {
     "resourceName": "test2",
     "resourceDescription": "test for seeding data",
-    "resourceLevelType": "OP"
+    "resourceLevelType": "OP",
+    "resourceId": "a92ef83d-12fb-49f3-a443-1cf40c177371"
   },
   {
     "resourceName": "test3",
     "resourceDescription": "test for seeding data",
-    "resourceLevelType": "OP"
+    "resourceLevelType": "OP",
+    "resourceId": "2f999d74-a451-483d-8761-cde7b97266bf"
   },
   {
     "resourceName": "test4",
     "resourceDescription": "test for seeding data",
-    "resourceLevelType": "OP"
+    "resourceLevelType": "OP",
+    "resourceId": "ed8f8b70-8070-46e6-8c9a-f99e6eddb4cf"
   },
   {
     "resourceName": "test5",
     "resourceDescription": "test for seeding data",
-    "resourceLevelType": "OP"
+    "resourceLevelType": "OP",
+    "resourceId": "441cbdac-865a-4dbe-a5a2-c212ce102563"
   }
 
 ]

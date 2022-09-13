@@ -24,7 +24,7 @@ export class InitialRecordService {
         try {
             await this.resource.bulkCreate(resourceDataList,
                 {
-                    fields: ["resourceName","resourceDescription", "resourceLevelType", "createdBy", "createdAt"],
+                    fields: ["resourceName","resourceDescription", "resourceLevelType", "resourceId", "createdBy", "createdAt"],
                     updateOnDuplicate: ["resourceName"]
                 }
             );
