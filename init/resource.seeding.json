@@ -1,0 +1,28 @@
+[
+  {
+    "resourceName": "test1",
+    "resourceDescription": "test for seeding data",
+    "resourceLevelType": "OP"
+  },
+  {
+    "resourceName": "test2",
+    "resourceDescription": "test for seeding data",
+    "resourceLevelType": "OP"
+  },
+  {
+    "resourceName": "test3",
+    "resourceDescription": "test for seeding data",
+    "resourceLevelType": "OP"
+  },
+  {
+    "resourceName": "test4",
+    "resourceDescription": "test for seeding data",
+    "resourceLevelType": "OP"
+  },
+  {
+    "resourceName": "test5",
+    "resourceDescription": "test for seeding data",
+    "resourceLevelType": "OP"
+  }
+
+]

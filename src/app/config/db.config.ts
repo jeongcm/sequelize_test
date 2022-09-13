@@ -1,4 +1,6 @@
 import * as dotenv from 'dotenv';
+import resources from '../../../init/resource.seeding.json';
+
 dotenv.config();
 
 export const config = {
@@ -9,5 +11,8 @@ export const config = {
         host : process.env.HOST || 'localhost',
         port : 3307,
         dialect : "mysql"
+    },
+    initialRecord: {
+        resources
     }
 }
