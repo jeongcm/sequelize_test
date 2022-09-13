@@ -7,7 +7,7 @@ export const config = {
         password : process.env.DB_PASSWORD || '123',
         database : process.env.DB_DBNAME || 'test',
         host : process.env.HOST || 'localhost',
-        port : process.env.PORT || 3306,
-        dialect : "mysql2"
+        port : 3307,
+        dialect : "mysql"
     }
 }
