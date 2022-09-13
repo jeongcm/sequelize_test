@@ -4,6 +4,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const dotenv = require("dotenv")
 const DB = require("./app")
+import {InitialRecordService} from './app/initRecord'
 
 dotenv.config();
 
@@ -30,8 +31,12 @@ app.use((req:Request,res:Response,next:NextFunction) => {
 })
 
 DB.sequelize.sync({ force: false })
-    .then(() => {
-      console.log('Sync done')
+    .then(async () => {
+        const initRecordService = new InitialRecordService();
+        initRecordService.insertInitialRecords().then(() => {
+            console.log('Sync done')
+        });
+
     })
     .catch((e) => {
       console.log(e);
