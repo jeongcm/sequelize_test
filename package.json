@@ -24,6 +24,7 @@
     "express": "^4.17.1",
     "mysql2": "^2.3.3",
     "sequelize": "^6.21.6",
-    "sequelize-cli": "^6.4.1"
+    "sequelize-cli": "^6.4.1",
+    "typeorm-seeding": "^1.6.1"
   }
 }
